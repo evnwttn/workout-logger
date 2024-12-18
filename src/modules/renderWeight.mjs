@@ -1,5 +1,5 @@
-import { addDeleteButton } from "./deleteWeightHistory";
 import { renderWeightChart } from "./renderGraphs.mjs";
+import { addDeleteButton } from "./deleteWeightHistory.mjs";
 
 export function renderWeightContainer(parent) {
   const users = JSON.parse(localStorage.getItem("users")) || {};
